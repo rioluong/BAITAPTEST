@@ -11,3 +11,11 @@ p {
     text-align: center;
 }
 
+.im2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.im2 img {
+    display: inline-block;
+}
