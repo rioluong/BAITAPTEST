@@ -19,3 +19,6 @@ p {
 .im2 img {
     display: inline-block;
 }
+h1 {
+    text-transform: uppercase;
+}
