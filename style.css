@@ -3,12 +3,40 @@ body {
     min-height: 100vh;
     display: grid;
     place-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("./image/One_Piece\,_Volume_61_Cover_\(Japanese\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    max-width: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1000;
 }
 
 p {
-    color: blue;
+    color: rgb(242, 242, 48);
     font-size: 32px;
     text-align: center;
+}
+
+a p {
+    display: inline-block;
+    padding: 5px 15px;
 }
 
 .im2 {
@@ -21,4 +49,10 @@ p {
 }
 h1 {
     text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 300px;
+    color: rgb(185, 10, 42);
+}
+a p:hover {
+    background-color: rgb(207, 14, 46);
 }
